@@ -1,0 +1,132 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: brown;
+}
+
+h1 {
+  margin: 0;
+  padding: 5px 0 0 0;
+  text-align: center;
+  color:whitesmoke;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modalcontent {
+  background-color: rgb(231, 149, 78);
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
+}
+
+.formcontent {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+/* The Close Button */
+
+.newBook:hover,
+.newBook:focus {
+  cursor: pointer;
+} 
+
+.newBook {
+  font-weight: 100;
+  font-size: 50px;
+  border:4px rgb(231, 149, 78) solid;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+
+
+.input {
+  font-size: inherit;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  padding: 10px;
+  border: 10px rgb(231, 149, 78) solid;
+}
+
+.bookcard {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 400px;
+  border: 4px black solid;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  gap: 30px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: 0;
+  padding: 10px;
+}
+
+.bookcarditem {
+  padding: 0;
+  margin: 0;
+}
+
+.readbtn {
+  text-decoration: none;
+  background-color: none;
+  border: 3px gold solid;
+  border-radius: 4px;
+  padding: 5px 20px;
+  margin: 0;
+  color: brown;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.removebtn {
+  text-decoration: none;
+  border: 6px black solid;
+  padding: 4px;
+  margin: 0;
+  color: brown;
+}
+
+.cardspace {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 5%;
+  margin: 0;
+  gap: 40px;
+}
+
+
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(231, 149, 78);
+}
